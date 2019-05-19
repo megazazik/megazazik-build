@@ -1,0 +1,16 @@
+{
+  "name": "@megazazik/build",
+  "version": "0.0.1",
+  "description": "Build scripts for my projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "build",
+    "typescript",
+    "less"
+  ],
+  "author": "megazazik <megazazik@rambler.ru>",
+  "license": "MIT"
+}
