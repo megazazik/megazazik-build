@@ -2,9 +2,52 @@
   "name": "@megazazik/build",
   "version": "0.0.1",
   "description": "Build scripts for my projects",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
+  },
+  "bin": {
+    "megazazik-build": "./dist/build.js",
+    "megazazik-proxy": "./dist/hmrProxyServer.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "chalk": "^2.4.2",
+    "clean-webpack-plugin": "^2.0.2",
+    "concurrently": "^3.6.0",
+    "cross-env": "^5.1.1",
+    "css-loader": "^1.0.0",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.5.1",
+    "file-loader": "^1.1.11",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "minimist": "^1.2.0",
+    "nodemon": "^1.18.3",
+    "react-hot-loader": "^4.8.8",
+    "sinon": "^4.1.2",
+    "style-loader": "^0.21.0",
+    "ts-loader": "^4.4.2",
+    "tsconfig-paths": "^3.8.0",
+    "tsconfig-paths-webpack-plugin": "^3.2.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-middleware": "^3.7.0",
+    "webpack-hot-middleware": "^2.22.3",
+    "webpack-node-externals": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "@types/webpack": "^4.4.31",
+    "ts-node": "^3.3.0",
+    "typescript": "^3.4.5"
+  },
+  "peerDependencies": {
+    "typescript": "^3.0.0",
+    "webpack-hot-middleware": "^2.22.0"
   },
   "keywords": [
     "build",
