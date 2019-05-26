@@ -47,7 +47,8 @@
   },
   "peerDependencies": {
     "typescript": "^3.0.0",
-    "webpack-hot-middleware": "^2.22.0"
+    "webpack-hot-middleware": "^2.22.0",
+    "@hot-loader/react-dom": "^16.8.6"
   },
   "keywords": [
     "build",
