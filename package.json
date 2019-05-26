@@ -55,5 +55,9 @@
     "less"
   ],
   "author": "megazazik <megazazik@rambler.ru>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megazazik/megazazik-build.git"
+  }
 }
