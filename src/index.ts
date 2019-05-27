@@ -5,6 +5,8 @@ import CleanWebpackPlugin from 'clean-webpack-plugin';
 import { resolve } from 'path';
 import TsConfigPathsPlugin from 'tsconfig-paths-webpack-plugin';
 
+export * from './storybook';
+
 type Omit<T, K> = Pick<T, Exclude<keyof T, K>>;
 
 const NODE_ENV = process.env.NODE_ENV || "development";
